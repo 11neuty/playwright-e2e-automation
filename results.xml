@@ -1,0 +1,54 @@
+<testsuites id="" name="" tests="2" failures="1" skipped="0" errors="0" time="7.185601">
+<testsuite name="login.spec.ts" timestamp="2026-03-17T09:14:12.049Z" hostname="chromium" tests="2" failures="1" skipped="0" time="6.696" errors="0">
+<testcase name="Login Feature › Login success with valid credentials" classname="login.spec.ts" time="5.963">
+<failure message="login.spec.ts:6:7 Login success with valid credentials" type="FAILURE">
+<![CDATA[  [chromium] › login.spec.ts:6:7 › Login Feature › Login success with valid credentials ────────────
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /inventory/
+    Received string:  "https://www.saucedemo.com/"
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 5000ms
+        9 × unexpected value "https://www.saucedemo.com/"
+
+
+       at ..\pages\login.page.ts:21
+
+      19 |
+      20 |   async verifyLoginSuccess() {
+    > 21 |     await expect(this.page).toHaveURL(/inventory/);
+         |                             ^
+      22 |     await expect(this.page.getByText('Products')).toBeVisible();
+      23 |   }
+      24 |
+        at LoginPage.verifyLoginSuccess (C:\PROJECT RESEARCH\PLAYW\PROJECT-1\pages\login.page.ts:21:29)
+        at C:\PROJECT RESEARCH\PLAYW\PROJECT-1\tests\login.spec.ts:11:21
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Feature-Login-success-with-valid-credentials-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ..\test-results\login-Login-Feature-Login-success-with-valid-credentials-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\login-Login-Feature-Login-success-with-valid-credentials-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\login-Login-Feature-Login-success-with-valid-credentials-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\login-Login-Feature-Login-success-with-valid-credentials-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\login-Login-Feature-Login-success-with-valid-credentials-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Login Feature › Login failed with invalid credentials" classname="login.spec.ts" time="0.733">
+</testcase>
+</testsuite>
+</testsuites>

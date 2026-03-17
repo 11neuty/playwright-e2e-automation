@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1120","TC001 - Login with valid credentials","chromium","2026-03-17","passed","2026-03-17","Login Feature","login.spec.ts","",""
+"","1069","TC002 - Login with invalid username","chromium","2026-03-17","passed","2026-03-17","Login Feature","login.spec.ts","",""
+"","1086","TC003 - Login with invalid password","chromium","2026-03-17","passed","2026-03-17","Login Feature","login.spec.ts","",""
