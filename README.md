@@ -20,6 +20,14 @@ It covers UI testing scenarios and generates professional test reports using All
 - TC001 Login with valid credentials  
 - TC002 Login with invalid username  
 - TC003 Login with invalid password  
+- TC004 Sort product by Name A-Z  
+- TC005 Sort product by Name Z-A  
+- TC006 Sort product by Price Low-High  
+- TC007 Sort product by Price High-Low  
+- TC008 User can add product to cart  
+- TC009 User can remove product from inventory page  
+- TC010 User can remove product from cart page  
+- TC011 User can checkout item  
 
 ## ⚙️ How to Install
 1. Install dependencies  
