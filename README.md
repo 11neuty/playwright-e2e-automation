@@ -4,6 +4,16 @@
 This project contains end-to-end test automation using Playwright with TypeScript.  
 It covers UI testing scenarios and generates professional test reports using Allure.
 
+## 📊 End-to-End Test Report (Allure)
+
+<p align="center">
+  <img width="799" height="258" src="https://github.com/user-attachments/assets/81df230e-7b91-410e-87c2-9074617a1469" />
+</p>
+
+<p align="center">
+  <img width="820" height="879" src="https://github.com/user-attachments/assets/44f6ee58-dba0-48a3-8185-725d6eeeae52" />
+</p>
+
 ## 🔗 Test Scenario Reference
 [View Test Scenarios](https://docs.google.com/spreadsheets/d/1sTjOi1oZEUVMcN2Bnfgl77US8evlAPPHvl83JH2HvHY/edit?usp=sharing)
 
