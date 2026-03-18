@@ -4,6 +4,9 @@
 This project contains end-to-end test automation using Playwright with TypeScript.  
 It covers UI testing scenarios and generates professional test reports using Allure.
 
+## 🔗 Test Scenario Reference
+[View Test Scenarios](https://docs.google.com/spreadsheets/d/1sTjOi1oZEUVMcN2Bnfgl77US8evlAPPHvl83JH2HvHY/edit?usp=sharing)
+
 ## 🛠 Tech Stack
 - 🎭 Playwright  
 - 🟦 TypeScript  
